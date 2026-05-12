@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>徒然草タイピング</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="start-screen" class="screen active">
+    <div class="card">
+      <h1>徒然草タイピング</h1>
+      <p class="subtitle">キーボードで古典文学を打ち抜け。</p>
+
+      <div class="info-box">
+        <p>・ローマ字入力対応</p>
+        <p>・ミス数計測あり</p>
+        <p>・最後にスコア表示</p>
+      </div>
+
+      <button id="start-button">START</button>
+    </div>
+  </div>
+
+  <div id="game-screen" class="screen">
+
+    <div class="top-bar">
+      <div>TIME: <span id="timer">0.00</span></div>
+      <div>MISS: <span id="miss-count">0</span></div>
+    </div>
+
+    <div class="game-card">
+      <div id="jp-text" class="jp-text"></div>
+      <div id="kana-text" class="kana-text"></div>
+      <div id="roman-text" class="roman-text"></div>
+      <div id="typed-text" class="typed-text"></div>
+    </div>
+
+  </div>
+
+  <div id="result-screen" class="screen">
+    <div class="card">
+      <h1>RESULT</h1>
+
+      <div class="result-box">
+        <p>TIME</p>
+        <div id="final-time" class="result-value"></div>
+
+        <p>MISS</p>
+        <div id="final-miss" class="result-value"></div>
+
+        <p>SCORE</p>
+        <div id="final-score" class="result-value score"></div>
+
+        <p>RANK</p>
+        <div id="final-rank" class="result-value rank"></div>
+      </div>
+
+      <button id="retry-button">RETRY</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
