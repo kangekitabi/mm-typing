@@ -2,7 +2,7 @@ const problems = [
 {
   text: "悪いな でも古くからある島のしきたりなんだ",
   kana: "わるいなでもふるくからあるしまのしきたりなんだ",
-  display: "waruina demo furukukaraaru shimano shikatarinanda"
+  display: "waruina demo furukukaraaru shimano shikitarinanda"
 },
 {
   text: "結婚式前夜に花婿は海に潜って─",
